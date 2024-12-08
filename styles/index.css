@@ -80,6 +80,10 @@
     opacity: 0.5;
 }
 
+.header__dropdown {
+    width: 25px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
