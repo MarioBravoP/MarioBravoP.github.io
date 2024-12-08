@@ -40,6 +40,7 @@
 
 .Header-dropdown {
     display: none;
+    width: 25px;
 }
 
 .Header-link {
