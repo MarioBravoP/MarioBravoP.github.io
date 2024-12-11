@@ -1,70 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <div class="Wrapper">    
-        <header class="Header">
-            <div class="Header-logo">
-                <a href="index.html">
-                    <img src="assets/logo.png" alt="Page logo" class="Header-img">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__logo">
+                <a href="index.html" class="header__link">
+                    <img src="assets/Logo-dark.png" alt="logo" class="header__img">
                 </a>
             </div>
-            <nav class="Header-nav">
-                <ul class="Header-list">
-                    <li class="Header-item">
-                        <a href="index.html" class="Header-link is-active">All prints</a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="index.html" class="header__link header__link--active">MAIN</a>
                     </li>
-                    <li class="Header-item">
-                        <a href="#" class="Header-link">About Us</a>
+                    <li class="header__item">
+                        <a href="#" class="header__link">ABOUT</a>
                     </li>
-                    <li class="Header-item">
-                        <a href="#" class="Header-link">Contact</a>
+                    <li class="header__item">
+                        <a href="#" class="header__link">CONTACT</a>
                     </li>
                 </ul>
-                <div class="Header-dropdown">
-                    <a href="#" class="Header-link">
-                        <img src="assets/hamburger_icon.png" alt="Dropdown hamburger" class="Header-dropdown">
+            </nav>
+            <div class="header__menu">
+                <a href="#" class="header__link">
+                    <i class="fa fa-bars fa-lg"></i>
+                </a>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="gallery">
+                <img src="assets/Masonry-list-img-1-500x500.jpg" alt="img1" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-2-500x500.jpg" alt="img2" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-3-500x1000.jpg" alt="img3" class="gallery__img gallery__img--tall" loading="lazy">
+                <img src="assets/Masonry-list-img-4-500x500.jpg" alt="img4" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-5-1000x1000.jpg" alt="img5" class="gallery__img gallery__img--large" loading="lazy">
+                <img src="assets/Masonry-list-img-6-500x500.jpg" alt="img6" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-7-500x500.jpg" alt="img7" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-8-500x500.jpg" alt="img8" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-9-1000x1000.jpg" alt="img9" class="gallery__img gallery__img--large" loading="lazy">
+                <img src="assets/Masonry-list-img-10-500x500.jpg" alt="img10" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-11-500x500.jpg" alt="img11" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-12-500x1000.jpg" alt="img12" class="gallery__img gallery__img--tall" loading="lazy">
+                <img src="assets/Masonry-list-img-13-500x500.jpg" alt="img13" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-14-500x500.jpg" alt="img14" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-15-500x500.jpg" alt="img15" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-16-500x500.jpg" alt="img16" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-17-1000x500.jpg" alt="img17" class="gallery__img gallery__img--wide" loading="lazy">
+                <img src="assets/Masonry-list-img-18-500x500.jpg" alt="img18" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-19-500x500.jpg" alt="img19" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-20-500x500.jpg" alt="img20" class="gallery__img" loading="lazy">
+                <img src="assets/Masonry-list-img-21-500x500.jpg" alt="img21" class="gallery__img" loading="lazy">
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__logo">
+                    <a href="index.html" class="footer__a"><img src="assets/Footer-logo.png" alt="Stockholm logo"
+                            class="footer__img" loading="lazy"></a>
+                </div>
+                <div class="footer__text">
+                    <p class="footer__p">Aliquam lorem ante, dapibus in, viverra quis, elit feugiat<br>
+                        Etiam sit tellus. Phasellus rutru nulla euter ameter<br>
+                        metus varius laoreet amet orci.</p>
+                </div>
+                <div class="footer__social">
+                    <a href="" class="footer__a">
+                        <img src="assets/pinterest-icon.png" alt="Pinterest logo" class="footer__img--social" loading="lazy">
+                    </a>
+                    <a href="" class="footer__a">
+                        <img src="assets/twitter-icon.png" alt="Twitter logo" class="footer__img--social" loading="lazy">
+                    </a>
+                    <a href="" class="footer__a">
+                        <img src="assets/instagram-icon.png" alt="Instagram logo" class="footer__img--social" loading="lazy">
                     </a>
                 </div>
-            </nav>
-        </header> 
-
-        <main class="Main">
-            <div class="Main-text">
-                <p>Check out some of the stuff que have worken on with and work spanning across several<br>different mediums including digital prints, company branding & more</p>
             </div>
-            <div class="Gallery">
-                <img src="assets/print-port-1.jpg" alt="img1" class="Gallery-img">
-                <img src="assets/print-port-2.jpg" alt="img2" class="Gallery-img">
-                <img src="assets/print-port-3.jpg" alt="img3" class="Gallery-img">
-                <img src="assets/print-port-4.jpg" alt="img4" class="Gallery-img">
-                <img src="assets/print-port-5-1.jpg" alt="img5" class="Gallery-img" loading="lazy">
-                <img src="assets/print-port-6.jpg" alt="img6" class="Gallery-img" loading="lazy">
-                <img src="assets/print-port-8.jpg" alt="img7" class="Gallery-img" loading="lazy">
-                <img src="assets/print-port-9.jpg" alt="img8" class="Gallery-img" loading="lazy">
-                <img src="assets/print-port-10.jpg" alt="img9" class="Gallery-img" loading="lazy">
-                <img src="assets/print-port-11.jpg" alt="img10" class="Gallery-img" loading="lazy">
-                <img src="assets/print-port-12.jpg" alt="img11" class="Gallery-img" loading="lazy">
-                <img src="assets/print-port-13.jpg" alt="img12" class="Gallery-img" loading="lazy">
-            </div>
-            <a class="Main-link u-textCenter" href="#">Show more</a>
-        </main>
-        <footer class="Footer">
-            <div class="Footer-container">
-                <p>All rights reserved © Code Interactive 2020</p>
-                <div class="Footer-socialLinks">
-                    <a href="#" target="_blank" class="Footer-socialLink">Instagram</a>
-                    <a href="#" target="_blank" class="Footer-socialLink">Facebook</a>
-                    <a href="#" target="_blank" class="Footer-socialLink">Behance</a>
-                    <a href="#" target="_blank" class="Footer-socialLink">Pinterest</a>
-                </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 MBP</p>
             </div>
         </footer>
     </div>
 </body>
+
 </html>
